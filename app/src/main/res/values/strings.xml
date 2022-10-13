@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ArtSpace</string>
+    <string name="title_0">Alex Chief Role</string>
+    <string name="description_0">Alex\'s chief role is to create documentation by converting technical information into comprehensible written content. “I’ve learned that I thrive in fast-paced environments,” he says. After studying biology and philosophy with the intention of pursuing a career in medicine and the biomedical sciences, Alex first joined Google as an operations engineer. Operations engineers are now the primary audience for his current work. ”Whatever your role may be, you have impact,” he says. “I’ve been amazed by the people I’ve met working here, and the accomplishments we’ve achieved together. It’s a great ride!”</string>
+    <string name="author_0">Alex</string>
+    <string name="year_0">(2022)</string>
+    <string name="title_1">Anne France</string>
+    <string name="description_1">Anne-France, whose job is to improve business operations in Google’s European data centers, enjoys the travel her job entails and the opportunity to interact with hundreds of people in different sectors. “This is an environment where you touch different technical fields,” she says, “where you can go deep into any level of expertise and where you will work with a lot of experienced people. You will definitely learn a lot from it.” Outside work, Anne-France is an athlete who participates in short-distance triathlons.</string>
+    <string name="author_1">Anne</string>
+    <string name="year_1">(2022)</string>
+    <string name="title_2">Berkeley County Exterior</string>
+    <string name="description_2">Dawn lights up the sky over our data center in Berkeley County, South Carolina.</string>
+    <string name="author_2">Berkeley</string>
+    <string name="year_2">(2022)</string>
+    <string name="title_3">Denise At The Dalles</string>
+    <string name="description_3">Denise diagnoses an overheated CPU at our data center in The Dalles, Oregon. For more than a decade, we have built some of the world\'s most efficient servers.</string>
+    <string name="author_3">Denise</string>
+    <string name="year_3">(2022)</string>
+    <string name="title_4">John Executes Programs</string>
+    <string name="description_4">John plans and executes programs to make Google’s data centers safer and more environmentally sustainable. With a BS in physics and an MS in energy and resources, his position requires strong leadership abilities, project management skills, and technical knowledge. “Effective communication is something everyone has to work hard at, even at higher levels of management,” says John. “I’ve greatly enjoyed having the opportunity to learn new things and make a global impact at the scale Google offers.”</string>
+    <string name="author_4">John</string>
+    <string name="year_4">(2022)</string>
+    <string name="title_5">Mike At The Dalles</string>
+    <string name="description_5">Mike swaps out a motherboard at our data center in The Dalles, Oregon. When server parts break, we first try to repair them. If we can\'t, we break them up into raw materials (steel, plastic, copper, etc.) and recycle the components.</string>
+    <string name="author_5">Mike</string>
+    <string name="year_5">(2022)</string>
+    <string name="title_6">St Ghislain Cooling Towers</string>
+    <string name="description_6">Google-colored lights illuminate steam rising from the cooling towers at our St. Ghislain, Belgium site.</string>
+    <string name="author_6">St Ghislain</string>
+    <string name="year_6">(2022)</string>
+</resources>
