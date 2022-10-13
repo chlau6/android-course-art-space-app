@@ -1,7 +1,6 @@
 package com.example.artspace
 
 import android.os.Bundle
-import android.widget.Space
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
@@ -17,7 +16,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.artspace.ui.theme.ArtSpaceTheme
 
 class MainActivity : ComponentActivity() {
@@ -109,8 +107,7 @@ fun ArtSpaceApp() {
 
 @Composable
 fun ArtworkWall(artwork: Int, description: Int) {
-    Card(modifier = Modifier
-        .fillMaxWidth(),
+    Card(modifier = Modifier,
         elevation = 10.dp
     ) {
         Image(
@@ -118,7 +115,9 @@ fun ArtworkWall(artwork: Int, description: Int) {
                 .border(width = 2.dp, color = Color.Gray)
                 .padding(
                     20.dp
-                ), painter = painterResource(artwork), contentDescription = stringResource(description)
+                ),
+            painter = painterResource(artwork),
+            contentDescription = stringResource(description),
         )
     }
 }
@@ -127,11 +126,11 @@ fun ArtworkWall(artwork: Int, description: Int) {
 fun ArtworkDescriptor(title: Int, author: Int, year: Int) {
     Card(modifier = Modifier
         .fillMaxWidth()
-        .padding(20.dp),
+        .padding(20.dp)
+        .wrapContentSize(),
         elevation = 10.dp) {
         Column(
             modifier = Modifier
-                .fillMaxWidth()
                 .padding(20.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
